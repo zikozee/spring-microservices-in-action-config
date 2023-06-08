@@ -1,3 +1,6 @@
+server:
+  port: 8080
+
 example:
   property: I AM THE LICENSE DEFAULT
 spring:
