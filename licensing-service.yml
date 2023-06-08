@@ -1,5 +1,5 @@
 example:
-  property: I AM THE DEFAULT GIT
+  property: I AM THE LICENSE DEFAULT
 spring:
   jpa:
     hibernate:
