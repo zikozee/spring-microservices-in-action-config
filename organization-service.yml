@@ -2,7 +2,7 @@ server:
   port: 8081
 
 example:
-  property: I AM THE LICENSE DEFAULT
+  property: I AM THE ORGANIZATION DEFAULT
 spring:
   jpa:
     hibernate:
