@@ -7,7 +7,7 @@ example:
 spring:
   jpa:
     hibernate:
-      ddl-auto: update
+      ddl-auto: create-drop
     database: POSTGRESQL
 
     show-sql: true
