@@ -8,6 +8,8 @@ spring:
   jpa:
     hibernate:
       ddl-auto: none
+      naming:
+        physical-strategy: com.optimagrowth.licene.config.HibernateCustomPhysicalNamingStrategy
     database: POSTGRESQL
 
     show-sql: true
