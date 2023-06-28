@@ -81,3 +81,22 @@ resilience4j:
           units:
             - 20s
         failure-rate-threshold: 9
+
+
+  bulkhead:
+    instances:
+      bulkheadLicenseService:
+        max-wait-duration:
+          units:
+            - 10ms
+        max-concurrent-calls: 5
+
+  thread-pool-bulkhead:
+    instances:
+      bulkheadLicenseService:
+        max-thread-pool-size: 1
+        core-thread-pool-size: 1
+        queue-capacity: 1
+        keep-alive-duration:
+          units:
+            - 20ms
