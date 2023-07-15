@@ -21,3 +21,6 @@ spring:
       discovery.locator:
         enabled: true
         lowerCaseServiceId: true
+
+management.endpoint.gateway.enabled: true
+management.endpoints.web.exposure.include: health,gateway
